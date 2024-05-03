@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="jquery-ui.css" />
+    <link rel="stylesheet" href="altinyildirimactivity8.css" />
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="altinyildirimactivity8.js"></script>
+    <title>Interactive Form with Validation</title>
+  </head>
+  <body>
+    <form id="myForm">
+      <div>
+        <label for="programming">What programming language do you know?</label>
+        <input type="text" id="programming" required />
+      </div>
+      <div>
+        <label for="birthday">What is your birthday?</label>
+        <input type="text" id="birthday" />
+      </div>
+      <div>
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          required
+          placeholder="Enter a valid email address"
+        />
+      </div>
+      <div>
+        <label for="website">Website</label>
+        <input type="url" id="website" required />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
